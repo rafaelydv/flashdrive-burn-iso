@@ -12,4 +12,5 @@ read -p "Informe o caminho da imagem ISO que será gravada: " isoimage
 echo "${isoimage:?Atenção este campo é de preenchimento obrigatório\!}"
 echo
 #
+#
 dd if=$isoimage of=$flashdrive status="progress" conv="fsync"
