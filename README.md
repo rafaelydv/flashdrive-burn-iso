@@ -1,2 +1,2 @@
 # flashdrive-burn-iso
-Shellscript to burn iso images on flashdrive
+Shellscript to burn bootable iso images on flashdrive.
